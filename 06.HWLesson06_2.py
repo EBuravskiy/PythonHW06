@@ -8,6 +8,7 @@ else:
         print("The number 0 is not natural. Try natural number from 1 to 2 billion")
     elif n == 1:
         count = 1
+        print("Number of natural divisors of a number", n, "is:", count) 
     else:
         for i in range(2, int(n/2)+1):
             if n % i == 0:
